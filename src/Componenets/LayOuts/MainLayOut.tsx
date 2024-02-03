@@ -41,7 +41,18 @@ const MainLayOut = () => {
             console.log(collapsed, type);
           }}
         >
-          <div className="demo-logo-vertical" />
+          <div
+            style={{
+              color: "white",
+              textAlign: "center",
+              height: "4rem",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <h1 style={{ height: "20px" }}>PH University</h1>
+          </div>
           <Menu
             theme="dark"
             mode="inline"
